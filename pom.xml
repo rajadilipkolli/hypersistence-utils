@@ -10,7 +10,7 @@
 
     <groupId>io.hypersistence</groupId>
     <artifactId>hypersistence-utils-parent</artifactId>
-    <version>3.10.4-SNAPSHOT</version>
+    <version>3.15.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Hypersistence Utils</name>
@@ -54,6 +54,8 @@
     </repositories>
 
     <modules>
+        <module>hypersistence-utils-hibernate-73</module>
+        <module>hypersistence-utils-hibernate-71</module>
         <module>hypersistence-utils-hibernate-70</module>
         <module>hypersistence-utils-hibernate-63</module>
     </modules>
